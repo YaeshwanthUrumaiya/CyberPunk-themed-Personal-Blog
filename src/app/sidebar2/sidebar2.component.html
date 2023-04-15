@@ -1,0 +1,113 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+    h1{
+    font-family: f1;
+}
+    #main {
+  box-shadow:
+  inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #f0f,   /* inner left magenta short */
+    inset -20px 0 80px #0ff,  /* inner right cyan short */
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #f0f,        /* outer left magenta */
+    10px 0 80px #0ff;         /* outer right cyan */
+}
+.blinking {
+  animation-name: blinking;
+  animation-duration: 3s;
+  animation-iteration-count: 100;
+}
+@keyframes blinking {
+    0% {
+    box-shadow: 40%;
+    background-color: #000000;
+  }
+  5% {
+    box-shadow: 50%;
+    background-color: #000000;
+  }
+  10% {
+    box-shadow: 60%;
+    
+  }
+  15% {
+    box-shadow: 85%;
+  }
+  25% {
+    box-shadow: 50%;
+    background-color: #000000;
+  }
+  30% {
+    box-shadow: 100%;
+  }
+  35% {
+    box-shadow: 10%;
+    background-color: #000000;
+  }
+  40% {
+    box-shadow: 25%;
+    background-color: #000000;
+  }
+  45% {
+    box-shadow: 60%;
+  }
+  60% {
+    box-shadow: 100%;
+  }
+  70% {
+    box-shadow: 85%;
+  }
+  80% {
+    box-shadow: 40%;
+    background-color: #000000;
+  }
+  90% {
+    box-shadow: 50%;
+    background-color: #000000;
+  }
+  100% {
+    box-shadow: 100%;
+  }
+  
+}
+</style>
+<div class="container-fluid blinking" id ="main" style="background-color: rebeccapurple; border-radius: 10px; border: 1px solid rgb(168, 49, 49); position: relative; top: 90px;">
+<h1>Contact Info</h1>
+<br>
+<br>
+<br>
+
+<div class="input-group-addon" style="border-radius: 10px;">
+    <span class="glyphicon glyphicon-send" style="width: fit-content; position: relative; right: 8px"></span>
+    <button class="btn btn-success"  style="width: 170px; font-family: f2;"><a href="https://www.linkedin.com/in/yaeshwanth-urumaiya-323850260/">LinkedIn</a></button>
+</div>
+<br>
+
+<div class="input-group-addon" style="border-radius: 10px;">
+    <span class="glyphicon glyphicon-briefcase" style="width: fit-content; position: relative; right: 8px"></span>
+    <button class="btn btn-success"  style="width: 170px; font-family: f2;"><a href="https://twitter.com/LagCat_Games">Twitter</a></button>
+</div>
+<br>
+
+<div class="input-group-addon" style="border-radius: 10px;">
+    <span class="glyphicon glyphicon-globe" style="width: fit-content; position: relative; right: 8px"></span>
+    <button class="btn btn-success"  style="width:170px; font-family: f2;"><a href="https://www.instagram.com/latenight.boogeyman/">Instagram</a></button>
+</div>
+<br>
+
+<div class="input-group-addon" style="border-radius: 10px;">
+    <span class="glyphicon glyphicon-paperclip" style="width: fit-content; position: relative; right: 8px"></span>
+    <button class="btn btn-success"  style="width: 170px; font-family: f2;"><a href="https://github.com/YaeshwanthUrumaiya">GitHub</a></button>
+</div>
+<br>
+
+<div class="input-group-addon" style="border-radius: 10px;">
+    <span class="glyphicon glyphicon-heart-empty" style="width: fit-content; position: relative; right: 8px"></span>
+    <button class="btn btn-success"  style="width: 170px; font-family: f2;"><a href="https://lagcatgames.itch.io">LAGCAT</a></button>
+</div>
+<br>
+</div>

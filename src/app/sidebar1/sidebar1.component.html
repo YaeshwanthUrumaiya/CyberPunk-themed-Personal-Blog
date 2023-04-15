@@ -1,0 +1,92 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<style>
+    #main {
+  box-shadow:
+  inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #f0f,   /* inner left magenta short */
+    inset -20px 0 80px #0ff,  /* inner right cyan short */
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #f0f,        /* outer left magenta */
+    10px 0 80px #0ff;         /* outer right cyan */
+}
+.blinking {
+  animation-name: blinking;
+  animation-duration: 5s;
+  animation-iteration-count: 100;
+}
+@keyframes blinking {
+  0% {
+    box-shadow: 40%;
+    background-color: #000000;
+  }
+  5% {
+    box-shadow: 50%;
+    background-color: #000000;
+  }
+  10% {
+    box-shadow: 60%;
+    
+  }
+  15% {
+    box-shadow: 85%;
+  }
+  25% {
+    box-shadow: 50%;
+    background-color: #000000;
+  }
+  30% {
+    box-shadow: 100%;
+  }
+  35% {
+    box-shadow: 10%;
+    background-color: #000000;
+  }
+  40% {
+    box-shadow: 25%;
+    background-color: #000000;
+  }
+  45% {
+    box-shadow: 60%;
+  }
+  60% {
+    box-shadow: 100%;
+  }
+  70% {
+    box-shadow: 85%;
+  }
+  80% {
+    box-shadow: 40%;
+    background-color: #000000;
+  }
+  90% {
+    box-shadow: 50%;
+    background-color: #000000;
+  }
+  100% {
+    box-shadow: 100%;
+  }
+}
+h1{
+    font-family: f1;
+}
+p{
+    font-family: f2;
+    color: whitesmoke;
+    font-size: large;
+}
+</style>
+
+<div class="container-fluid  blinking" id="main" style="background-color: rebeccapurple;  border-radius: 10px; border: 2px solid red; position: relative; width: 600px; height: auto; top: 65px; left: 20px;">
+<h1 class="display-6">About Me!</h1>
+<p>Hey! I am Yaeshwanth Urumaiya, an AIML Student and an Indie Game Dev hobbyist! <br><br>
+    I aspire to be an accomplished ML Engineer and enroute towards that goal. <br><br>
+    I recommend you to check out my Projects in my GitHub. <br><br>
+    In my free time, I do Game-Development and have founded a team called LaGCat Games. <br><br>
+    With one arcade game under our belt, our second project is under pre-production. 
+</p>
+</div>
